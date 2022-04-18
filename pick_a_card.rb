@@ -5,10 +5,9 @@ suits = ["♠", "♥", "♦", "♣"]
 
 cards = []
 
-
 values.each do |value|
   suits.each do |suit|
-    cards << "[#{value}|#{suit}]"
+    cards << "#{value}#{suit[0].downcase}"
   end
 end
 
