@@ -2,6 +2,12 @@
 
 A simple ruby script that genearates a requested number of random cards from a deck.
 
+Clone the repository:
+
+```
+git clone https://github.com/goodquietly/pick_a_card.git
+```
+
 ### Usage
 
 ```sh
